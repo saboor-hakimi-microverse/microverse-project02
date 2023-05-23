@@ -4,15 +4,21 @@
         <meta charset="UTF-8" />
         <title>Fork Me! FCC: Test Suite Template</title>
         <link rel="stylesheet" href="css/style.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
 
     <body>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <header id="header">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fproduct&psig=AOvVaw0MthcAa_2o7kCh2mgjyhmL&ust=1684929688722000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjZlK-yi_8CFQAAAAAdAAAAABAE" alt="" id="header-img">
+            <img
+                src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+                alt=""
+                height="100px"
+                width="100px"
+                id="header-img"
+            />
             <nav id="nav-bar">
-                <ol>
+                <ul>
                     <li class="nav-link">
                         <a href="#">Item one</a>
                     </li>
@@ -22,21 +28,36 @@
                     <li class="nav-link">
                         <a href="#">Item three</a>
                     </li>
-                </ol>
+                </ul>
             </nav>
         </header>
-        <p>Hello World, we are software developers!</p>
         <div>
-            <iframe src="" frameborder="0" id="video"></iframe>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/hvL1339luv0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+            ></iframe>
         </div>
-        <div>
-            <form action="https://www.freecodecamp.com/email-submit" method="post">
-                <div class="form-section">
-                    <input type="email" id="email" placeholder="Please enter email">
-                    <button id="submit">Submit</button>
-                </div>
-            </form>
-        </div>
+
+        <form
+            action="https://www.freecodecamp.com/email-submit"
+            method="post"
+            id="form"
+        >
+            <div class="form-section">
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Please enter email"
+                />
+                <input type="submit" id="submit" value="Submit" />
+            </div>
+        </form>
+
         <!--
 
     Hello World!
